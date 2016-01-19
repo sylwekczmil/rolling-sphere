@@ -1,0 +1,34 @@
+$back-color: #f0f0f0;
+
+body {
+  margin: 0px;
+  background-color: #000000;
+  color: #fff;
+  font-family: Monospace;
+  font-size: 15px;
+  line-height: 30px;
+  overflow: hidden;
+
+  #control-info {
+    font-size: 10px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: none;
+  }
+
+  #copyright {
+    font-size: 12px;
+    position: absolute;
+    bottom: 1px;
+    left: 10px;
+  }
+
+  #fileInput {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0
+  }
+}

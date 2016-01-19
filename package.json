@@ -1,0 +1,45 @@
+{
+  "name": "rolling-ball",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --host 0.0.0.0",
+    "test": "mocha --require babel-core/register \"test/**/*.js\"",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.4",
+    "babel-preset-env": "1.6.1",
+    "chai": "4.1.2",
+    "css-loader": "0.28.10",
+    "html-loader": "0.5.5",
+    "html-webpack-plugin": "3.0.6",
+    "mocha": "5.0.4",
+    "mocha-webpack": "1.0.1",
+    "node-sass": "4.14.1",
+    "sass-loader": "6.0.7",
+    "style-loader": "0.20.2",
+    "webpack": "4.1.1",
+    "webpack-cli": "2.0.10",
+    "webpack-dev-server": "3.1.0"
+  },
+  "dependencies": {
+    "dat.gui": "0.7.1",
+    "file-saver": "1.3.8",
+    "lodash": "4.17.5",
+    "three": "0.90.0",
+    "three-dragcontrols": "0.88.1",
+    "three-orbitcontrols": "2.0.0",
+    "three-trackballcontrols": "0.0.7",
+    "three-transformcontrols": "0.78.1"
+  }
+}
